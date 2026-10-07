@@ -19,7 +19,7 @@ palTab: $(OBJECT)
 	$(CC) $(SOURCE) -g -o $(TARGET)
 
 
-FILES = $(shell ls ../test/*.txt)
+FILES = $(shell ls ../../Lab03-testes/test/*.txt)
 
 VALG = valgrind --leak-check=full
 

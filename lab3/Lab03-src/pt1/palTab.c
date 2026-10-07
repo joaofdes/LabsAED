@@ -129,7 +129,7 @@ void AlocaTabelaPalavras ( char *ficheiro, st_texto *t)
 
   /* initialize data structures */
   for ( i = 0; i < (*t).n_total_palavras; i++ )   {
-    (*t).palavras[i][0] = '/0';
+    (*t).palavras[i][0] = '\0';
     (*t).ocorrencias[i] = 0;
   }
 
