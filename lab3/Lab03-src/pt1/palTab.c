@@ -220,7 +220,7 @@ void EscreveFicheiro ( char *ficheiro, st_texto *t )
   char *nomefich;
   int i = 0;
 
-  nomefich =  /* -- INSERT code for memory allocation,  --*/ ;
+  nomefich = (char *) malloc((strlen(ficheiro) + 10) * sizeof(char));// é pro nome original mais a extensão .palavras (que tem 9, +1 para o /0)
   /* including dot (.) extension and string termination, see below */
   if ( nomefich == NULL ) {
     fprintf ( stderr, "ERROR: not enough memory available!\n" );
@@ -235,7 +235,7 @@ void EscreveFicheiro ( char *ficheiro, st_texto *t )
   printf ( "Count of distinct words: %d\n", (*t).n_dist_palavras );
   fclose ( f );
 
-  /* Anything else I should do here? */
+  free(nomefich); // liberta o nome do ficheiro
 
   return;
 }
@@ -265,6 +265,13 @@ int main ( int argc, char **argv )
   AlocaTabelaPalavras ( argv[1], &st_palavras );
   PreencheTabelaPalavras ( argv[1],&st_palavras );
   EscreveFicheiro ( argv[1], &st_palavras );
+
+  for (i = 0; i < st_palavras.n_total_palavras; i++) {
+      free(st_palavras.palavras[i]); // libertamos cada string
+  }
+
+  free(st_palavras.palavras); // libertamos o array de ponteiros
+  free(st_palavras.ocorrencias); // e o de contadores
 
   return (0);
 }
