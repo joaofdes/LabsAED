@@ -177,12 +177,12 @@ t_words  *wordsCreateWord(char *pal)
 {
   t_words *nova;
 
-  nova = /* INSERT CODE to ALLOCATE MEMORY */
+  nova = (t_words*) malloc(sizeof(t_words)); //alocar espaço pras palavras
 
     if(nova == NULL)
       wordsMemoryError("Reserve memory for new word in criaWords" );
 
-  nova -> pal = /* INSERT CODE to ALLOCATE MEMORY */
+  nova -> pal = (char*) malloc((strlen(pal) + 1) * sizeof(char));
 
 
     if(nova == NULL)
@@ -291,8 +291,9 @@ void wordsWriteUniqueWordsFrequency(FILE* fpOut) {
 void wordsFreeWord(void*pv)
 {
   t_words *p = (t_words*) pv;
-  /* -- INSERT CODE TO FREE MEMORY RESERVED FOR WORD -- */
-  
+
+  free(p->pal); // liberta a string primeiro
+  free(p); //dps a estruturas
   return;
 }
 
