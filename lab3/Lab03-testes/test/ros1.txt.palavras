@@ -1,131 +1,129 @@
-1: Affective
-1: Computing
-3: is
-1: computing
-3: that
-1: relates
-1: to,
-1: arises
-1: from,
-1: or
-1: deliberately
-1: influences
-1: emotions
-2: Our
-2: research
-1: aimed
-2: at
-1: giving
-1: machines
-1: skills
-9: of
-2: emotional
-1: intelligence,
-1: including
-6: the
-1: ability
-7: to
-1: recognize,
-1: model,
-11: and
-1: understand
-4: human
-2: emotion,
-1: appropriately
-1: communicate
-1: respond
-1: it
-1: effectively.
-1: We
-1: are
-2: also
-1: interested
-5: in
-1: developing
-1: technologies
-1: assist
-3: development
-1: intelligence.
-1: approach,
-1: grounded
-1: findings
-2: from
-1: cognitive
-1: science,
-1: psychology,
-1: neuroscience,
-1: medicine,
-1: psychophysiology,
-1: sociology,
-1: ethics,
-2: develop
-2: engineering
-2: tools
-4: for
-1: measuring,
-1: modeling,
-1: reasoning
-1: about,
-1: responding
-1: affect.
-1: Thus,
-3: we
-5: new
-1: sensors,
-1: algorithms,
-1: systems,
-2: theories
-1: enable
-2: forms
-2: machine
-1: intelligence
-2: as
-1: well
-1: understanding.
-1: Many
-1: challenges
-1: face
-1: cannot
-1: be
-1: solved
-1: with
-1: existing
-1: tools;
-1: consequently,
-1: work
-1: frontiers
-1: learning,
-1: pattern
-1: recognition,
-1: signal
-1: processing,
-1: computer
-1: vision,
-1: speech
-1: analysis,
-1: sensor
-2: design,
-1: human-centered
-1: value-centered
-1: more.
-1: Applications
-1: include
-1: intelligent
-1: human-computer
-1: systems
-1: learn
-1: natural
-1: interaction,
-1: wearable
-1: computers
-1: health
-1: fitness,
-1: sensors
-1: measuring
-1: reducing
-1: frustration
-1: products,
-1: expression,
-1: computational
-1: affect
-1: learning.
+   1 : learning. (0.51%)
+   1 : affect (0.51%)
+   1 : computational (0.51%)
+   1 : expression, (0.51%)
+   1 : products, (0.51%)
+   1 : frustration (0.51%)
+   1 : reducing (0.51%)
+   1 : measuring (0.51%)
+   1 : sensors (0.51%)
+   1 : fitness, (0.51%)
+   1 : health (0.51%)
+   1 : computers (0.51%)
+   1 : wearable (0.51%)
+   1 : interaction, (0.51%)
+   1 : natural (0.51%)
+   1 : learn (0.51%)
+   1 : systems (0.51%)
+   1 : human-computer (0.51%)
+   1 : intelligent (0.51%)
+   1 : include (0.51%)
+   1 : Applications (0.51%)
+   1 : more. (0.51%)
+   1 : value-centered (0.51%)
+   1 : human-centered (0.51%)
+   2 : design, (1.02%)
+   1 : sensor (0.51%)
+   1 : analysis, (0.51%)
+   1 : speech (0.51%)
+   1 : vision, (0.51%)
+   1 : computer (0.51%)
+   1 : processing, (0.51%)
+   1 : signal (0.51%)
+   1 : recognition, (0.51%)
+   1 : pattern (0.51%)
+   1 : learning, (0.51%)
+   1 : frontiers (0.51%)
+   1 : work (0.51%)
+   1 : consequently, (0.51%)
+   1 : tools; (0.51%)
+   1 : existing (0.51%)
+   1 : with (0.51%)
+   1 : solved (0.51%)
+   1 : be (0.51%)
+   1 : cannot (0.51%)
+   1 : face (0.51%)
+   1 : challenges (0.51%)
+   1 : Many (0.51%)
+   1 : understanding. (0.51%)
+   1 : well (0.51%)
+   2 : as (1.02%)
+   1 : intelligence (0.51%)
+   2 : machine (1.02%)
+   2 : forms (1.02%)
+   1 : enable (0.51%)
+   2 : theories (1.02%)
+   1 : systems, (0.51%)
+   1 : algorithms, (0.51%)
+   1 : sensors, (0.51%)
+   5 : new (2.54%)
+   1 : Thus, (0.51%)
+   1 : affect. (0.51%)
+   1 : responding (0.51%)
+   1 : about, (0.51%)
+   1 : reasoning (0.51%)
+   1 : modeling, (0.51%)
+   1 : measuring, (0.51%)
+   4 : for (2.03%)
+   2 : tools (1.02%)
+   2 : engineering (1.02%)
+   2 : develop (1.02%)
+   1 : ethics, (0.51%)
+   1 : sociology, (0.51%)
+   1 : psychophysiology, (0.51%)
+   1 : medicine, (0.51%)
+   1 : neuroscience, (0.51%)
+   1 : psychology, (0.51%)
+   1 : science, (0.51%)
+   1 : cognitive (0.51%)
+   2 : from (1.02%)
+   1 : findings (0.51%)
+   1 : grounded (0.51%)
+   1 : approach, (0.51%)
+   1 : intelligence. (0.51%)
+   3 : development (1.52%)
+   1 : assist (0.51%)
+   1 : technologies (0.51%)
+   1 : developing (0.51%)
+   5 : in (2.54%)
+   1 : interested (0.51%)
+   2 : also (1.02%)
+   1 : are (0.51%)
+   4 : We (2.03%)
+   1 : effectively. (0.51%)
+   1 : it (0.51%)
+   1 : respond (0.51%)
+   1 : communicate (0.51%)
+   1 : appropriately (0.51%)
+   2 : emotion, (1.02%)
+   4 : human (2.03%)
+   1 : understand (0.51%)
+  11 : and (5.58%)
+   1 : model, (0.51%)
+   1 : recognize, (0.51%)
+   7 : to (3.55%)
+   1 : ability (0.51%)
+   6 : the (3.05%)
+   1 : including (0.51%)
+   1 : intelligence, (0.51%)
+   2 : emotional (1.02%)
+   9 : of (4.57%)
+   1 : skills (0.51%)
+   1 : machines (0.51%)
+   1 : giving (0.51%)
+   2 : at (1.02%)
+   1 : aimed (0.51%)
+   2 : research (1.02%)
+   2 : Our (1.02%)
+   1 : emotions (0.51%)
+   1 : influences (0.51%)
+   1 : deliberately (0.51%)
+   1 : or (0.51%)
+   1 : from, (0.51%)
+   1 : arises (0.51%)
+   1 : to, (0.51%)
+   1 : relates (0.51%)
+   3 : that (1.52%)
+   3 : is (1.52%)
+   2 : Computing (1.02%)
+   1 : Affective (0.51%)

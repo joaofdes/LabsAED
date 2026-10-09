@@ -1,276 +1,259 @@
-1: Biography:
-1: Rosalind
-1: W.
-5: Picard
-6: is
-1: founder
-34: and
-1: director
-19: of
-17: the
-2: Affective
-1: Computing
-1: Research
-1: Group
-7: at
-3: Massachusetts
-3: Institute
-2: Technology
-1: (MIT)
-2: Media
-2: Laboratory
-1: co-director
-1: Things
-1: That
-1: Think
-1: Consortium
-1: ,
-1: largest
-1: industrial
-1: sponsorship
-1: organization
-1: lab.
-5: She
-1: holds
-7: a
-1: Bachelors
-10: in
-2: Electrical
-3: Engineering
-8: with
-1: highest
-1: honors
-2: from
-2: Georgia
-1: Technology,
-1: Masters
-1: Doctorate
-1: degrees,
-1: both
-1: Computer
-1: Science,
-1: (MIT).
-5: has
-2: been
-1: member
-1: faculty
-1: MIT
-2: since
-1: 1991,
-1: tenure
-1: 1998.
-1: Prior
-3: to
-1: completing
-3: her
-1: doctorate
-1: MIT,
-2: she
-1: was
-1: Member
-1: Technical
-1: Staff
-1: AT&T
-1: Bell
-1: Laboratories
-1: where
-2: designed
-1: VLSI
-1: chips
-10: for
-1: digital
-2: signal
-1: processing
-2: developed
-2: new
-1: methods
-2: image
-1: compression
-1: analysis.
-5: The
-1: author
-2: over
-1: hundred
-1: peer-reviewed
-1: scientific
-1: articles
-1: multidimensional
-1: modeling,
-1: computer
-1: vision,
-1: pattern
-1: recognition,
-3: machine
-2: learning,
-2: human-computer
-1: interaction,
-1: known
-1: internationally
-2: pioneering
-3: research
-2: affective
-1: computing
-1: and,
-1: prior
-1: that,
-1: content-based
-1: video
-1: retrieval.
-2: recipient
-2: (with
-1: Tom
-1: Minka)
-1: best
-1: paper
-2: prize
-3: work
-5: on
-2: learning
-1: multiple
-1: models
-1: (1998)
-1: Barry
-1: Kort
-1: Rob
-1: Reilly)
-1: "best
-1: theory
-1: paper"
-1: their
-1: affect
-3: human
-1: (2001).
-2: Her
-1: award-winning
-1: book,
-1: Computing,
-1: (MIT
-1: Press,
-1: 1997)
-1: lays
-1: groundwork
-1: giving
-1: machines
-1: skills
-1: emotional
-1: intelligence.
-1: students
-1: have
-1: variety
-1: sensors,
-1: algorithms,
-1: systems
-1: sensing,
-1: recognizing,
-1: responding
-1: respectfully
-1: information,
-1: applications
-1: health,
-1: interaction.
-1: Dr.
-1: served
-1: many
-2: science
-1: engineering
-1: program
-1: committees,
-1: editorial
-1: boards,
-1: review
-1: panels,
-1: presently
-1: serving
-1: Editorial
-1: Board
-1: User
-1: Modeling
-1: User-Adapted
-1: Interaction:
-1: Journal
-1: Personalization
-1: Research,
-4: as
-1: well
-1: advisory
-1: boards
-1: National
-2: Science
-1: Foundation's
-1: division
-1: Computers
-1: (CISE)
-2: Tech
-1: College
-1: Computing.
-1: works
-1: closely
-1: industry,
-1: consulted
-1: companies
-2: such
-1: Apple,
-1: AT&T,
-1: BT,
-1: HP,
-1: i.Robot,
-1: Motorola.
-1: delivered
-1: keynote
-1: presentations
-2: or
-1: invited
-1: plenary
-1: talks
-1: fifty
-1: technology
-1: events,
-1: distinguished
-1: lectures
-1: colloquia
-1: dozens
-1: universities
-1: labs
-1: internationally.
-1: group's
-1: featured
-1: national
-1: international
-1: forums
-1: general
-1: public,
-2: New
-1: York
-1: Times,
-1: London
-1: Independent,
-1: Scientific
-1: American
-1: Frontiers,
-1: NPR's
-1: Nation
-1: Connection,
-1: ABC's
-1: Nightline
-1: World
-1: News
-1: Tonight
-1: Peter
-1: Jennings,
-1: Time,
-1: Vogue,
-1: Voice
-1: America
-1: Radio,
-1: Scientist,
-1: BBC's
-2: "The
-1: Works"
-1: Big
-1: Byte."
-1: lives
-1: Newton,
-1: husband
-1: three
-1: energetic
-1: sons.
+   1 : sons. (0.22%)
+   1 : energetic (0.22%)
+   1 : three (0.22%)
+   1 : husband (0.22%)
+   1 : Newton, (0.22%)
+   1 : lives (0.22%)
+   1 : Byte." (0.22%)
+   1 : Big (0.22%)
+   1 : Works" (0.22%)
+   2 : "The (0.44%)
+   1 : BBC's (0.22%)
+   1 : Scientist, (0.22%)
+   1 : Radio, (0.22%)
+   1 : America (0.22%)
+   1 : Voice (0.22%)
+   1 : Vogue, (0.22%)
+   1 : Time, (0.22%)
+   1 : Jennings, (0.22%)
+   1 : Peter (0.22%)
+   1 : Tonight (0.22%)
+   1 : News (0.22%)
+   1 : World (0.22%)
+   1 : Nightline (0.22%)
+   1 : ABC's (0.22%)
+   1 : Connection, (0.22%)
+   1 : Nation (0.22%)
+   1 : NPR's (0.22%)
+   1 : Frontiers, (0.22%)
+   1 : American (0.22%)
+   1 : Independent, (0.22%)
+   1 : London (0.22%)
+   1 : Times, (0.22%)
+   1 : York (0.22%)
+   1 : public, (0.22%)
+   1 : general (0.22%)
+   1 : forums (0.22%)
+   1 : international (0.22%)
+   1 : featured (0.22%)
+   1 : group's (0.22%)
+   1 : internationally. (0.22%)
+   1 : labs (0.22%)
+   1 : universities (0.22%)
+   1 : dozens (0.22%)
+   1 : colloquia (0.22%)
+   1 : lectures (0.22%)
+   1 : distinguished (0.22%)
+   1 : events, (0.22%)
+   1 : fifty (0.22%)
+   1 : talks (0.22%)
+   1 : plenary (0.22%)
+   1 : invited (0.22%)
+   2 : or (0.44%)
+   1 : presentations (0.22%)
+   1 : keynote (0.22%)
+   1 : delivered (0.22%)
+   1 : Motorola. (0.22%)
+   1 : i.Robot, (0.22%)
+   1 : HP, (0.22%)
+   1 : BT, (0.22%)
+   1 : AT&T, (0.22%)
+   1 : Apple, (0.22%)
+   2 : such (0.44%)
+   1 : companies (0.22%)
+   1 : consulted (0.22%)
+   1 : industry, (0.22%)
+   1 : closely (0.22%)
+   1 : works (0.22%)
+   1 : Computing. (0.22%)
+   1 : College (0.22%)
+   2 : Tech (0.44%)
+   1 : (CISE) (0.22%)
+   1 : Computers (0.22%)
+   1 : division (0.22%)
+   1 : Foundation's (0.22%)
+   2 : National (0.44%)
+   1 : boards (0.22%)
+   1 : advisory (0.22%)
+   1 : well (0.22%)
+   4 : as (0.87%)
+   1 : Research, (0.22%)
+   1 : Personalization (0.22%)
+   1 : Journal (0.22%)
+   1 : Interaction: (0.22%)
+   1 : User-Adapted (0.22%)
+   1 : Modeling (0.22%)
+   1 : User (0.22%)
+   1 : Board (0.22%)
+   1 : serving (0.22%)
+   1 : presently (0.22%)
+   1 : panels, (0.22%)
+   1 : review (0.22%)
+   1 : boards, (0.22%)
+   2 : editorial (0.44%)
+   1 : committees, (0.22%)
+   1 : program (0.22%)
+   4 : science (0.87%)
+   1 : many (0.22%)
+   1 : served (0.22%)
+   1 : Dr. (0.22%)
+   1 : interaction. (0.22%)
+   1 : health, (0.22%)
+   1 : applications (0.22%)
+   1 : information, (0.22%)
+   1 : respectfully (0.22%)
+   1 : responding (0.22%)
+   1 : recognizing, (0.22%)
+   1 : sensing, (0.22%)
+   1 : systems (0.22%)
+   1 : algorithms, (0.22%)
+   1 : sensors, (0.22%)
+   1 : variety (0.22%)
+   1 : have (0.22%)
+   1 : students (0.22%)
+   1 : intelligence. (0.22%)
+   1 : emotional (0.22%)
+   1 : skills (0.22%)
+   1 : machines (0.22%)
+   1 : giving (0.22%)
+   1 : groundwork (0.22%)
+   1 : lays (0.22%)
+   1 : 1997) (0.22%)
+   1 : Press, (0.22%)
+   1 : (MIT (0.22%)
+   1 : Computing, (0.22%)
+   1 : book, (0.22%)
+   1 : award-winning (0.22%)
+   1 : (2001). (0.22%)
+   3 : human (0.66%)
+   1 : affect (0.22%)
+   1 : their (0.22%)
+   1 : paper" (0.22%)
+   1 : theory (0.22%)
+   1 : "best (0.22%)
+   1 : Reilly) (0.22%)
+   1 : Rob (0.22%)
+   1 : Kort (0.22%)
+   1 : Barry (0.22%)
+   1 : (1998) (0.22%)
+   1 : models (0.22%)
+   1 : multiple (0.22%)
+   2 : learning (0.44%)
+   5 : on (1.09%)
+   3 : work (0.66%)
+   2 : prize (0.44%)
+   1 : paper (0.22%)
+   1 : best (0.22%)
+   1 : Minka) (0.22%)
+   1 : Tom (0.22%)
+   2 : (with (0.44%)
+   2 : recipient (0.44%)
+   1 : retrieval. (0.22%)
+   1 : video (0.22%)
+   1 : content-based (0.22%)
+   1 : that, (0.22%)
+   1 : and, (0.22%)
+   2 : pioneering (0.44%)
+   1 : internationally (0.22%)
+   1 : known (0.22%)
+   1 : interaction, (0.22%)
+   2 : human-computer (0.44%)
+   2 : learning, (0.44%)
+   3 : machine (0.66%)
+   1 : recognition, (0.22%)
+   1 : pattern (0.22%)
+   1 : vision, (0.22%)
+   1 : modeling, (0.22%)
+   1 : multidimensional (0.22%)
+   1 : articles (0.22%)
+   2 : scientific (0.44%)
+   1 : peer-reviewed (0.22%)
+   1 : hundred (0.22%)
+   2 : over (0.44%)
+   1 : author (0.22%)
+   1 : analysis. (0.22%)
+   1 : compression (0.22%)
+   2 : image (0.44%)
+   1 : methods (0.22%)
+   4 : new (0.87%)
+   2 : developed (0.44%)
+   1 : processing (0.22%)
+   2 : signal (0.44%)
+   1 : digital (0.22%)
+  10 : for (2.18%)
+   1 : chips (0.22%)
+   1 : VLSI (0.22%)
+   2 : designed (0.44%)
+   1 : where (0.22%)
+   1 : Laboratories (0.22%)
+   1 : Bell (0.22%)
+   1 : AT&T (0.22%)
+   1 : Staff (0.22%)
+   1 : Technical (0.22%)
+   1 : was (0.22%)
+   1 : MIT, (0.22%)
+   5 : her (1.09%)
+   1 : completing (0.22%)
+   3 : to (0.66%)
+   2 : Prior (0.44%)
+   1 : 1998. (0.22%)
+   1 : tenure (0.22%)
+   1 : 1991, (0.22%)
+   2 : since (0.44%)
+   1 : MIT (0.22%)
+   1 : faculty (0.22%)
+   2 : member (0.44%)
+   2 : been (0.44%)
+   5 : has (1.09%)
+   1 : (MIT). (0.22%)
+   1 : Science, (0.22%)
+   2 : Computer (0.44%)
+   1 : both (0.22%)
+   1 : degrees, (0.22%)
+   2 : Doctorate (0.44%)
+   1 : Masters (0.22%)
+   1 : Technology, (0.22%)
+   2 : Georgia (0.44%)
+   2 : from (0.44%)
+   1 : honors (0.22%)
+   1 : highest (0.22%)
+   8 : with (1.75%)
+   4 : Engineering (0.87%)
+   2 : Electrical (0.44%)
+  10 : in (2.18%)
+   1 : Bachelors (0.22%)
+   7 : a (1.53%)
+   1 : holds (0.22%)
+   7 : She (1.53%)
+   1 : lab. (0.22%)
+   1 : organization (0.22%)
+   1 : sponsorship (0.22%)
+   1 : industrial (0.22%)
+   1 : largest (0.22%)
+   1 : , (0.22%)
+   1 : Consortium (0.22%)
+   1 : Think (0.22%)
+   1 : That (0.22%)
+   1 : Things (0.22%)
+   1 : co-director (0.22%)
+   2 : Laboratory (0.44%)
+   2 : Media (0.44%)
+   1 : (MIT) (0.22%)
+   3 : Technology (0.66%)
+   3 : Institute (0.66%)
+   3 : Massachusetts (0.66%)
+   7 : at (1.53%)
+   1 : Group (0.22%)
+   4 : Research (0.87%)
+   2 : Computing (0.44%)
+   4 : Affective (0.87%)
+  22 : the (4.80%)
+  19 : of (4.15%)
+   1 : director (0.22%)
+  34 : and (7.42%)
+   1 : founder (0.22%)
+   6 : is (1.31%)
+   5 : Picard (1.09%)
+   1 : W. (0.22%)
+   1 : Rosalind (0.22%)
+   1 : Biography: (0.22%)
