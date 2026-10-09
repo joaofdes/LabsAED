@@ -243,7 +243,7 @@ void wordWriteWord(t_words *p, FILE *fp, int total)
 {
   double freqRel = (double) p->ocorrencias / total;
 
-  fprintf(fp, "%4d : %-20s %.4f (%.2f%%)\n", p->ocorrencias, p->pal, freqRel, freqRel * 100);
+  fprintf(fp, "%4d : %s (%.2f%%)\n", p->ocorrencias, p->pal, freqRel * 100);
 }
 
 
