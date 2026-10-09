@@ -23,7 +23,7 @@ typedef struct _t_words t_words;
 /* Interface functions for type t_words */
 void	wordsCreateData();
 void    wordsAddWord(char*);
-void	wordsWriteUniqueWordsFrequency(FILE*);
+void	wordsWriteUniqueWordsFrequency(FILE*, int total);
 int	wordsNumUniqueWords();
 void	wordsFreeData();
 

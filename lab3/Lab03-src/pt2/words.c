@@ -134,7 +134,7 @@ void wordsAddWord(char *novaPal)
  * Description: return number of unique words stored
  *****************************************************************************/
 
-int wordsNumUniqueWords(Item this)
+int wordsNumUniqueWords()
 {
   return (wordsTotalUniqueWords);
 }
@@ -177,7 +177,7 @@ t_words  *wordsCreateWord(char *pal)
 {
   t_words *nova;
 
-  nova = (t_words*) malloc(sizeof(t_words)); //alocar espaço pras palavras
+  nova = (t_words*) malloc(sizeof(t_words)); /*alocar espaço pras palavras*/
 
     if(nova == NULL)
       wordsMemoryError("Reserve memory for new word in criaWords" );
@@ -239,11 +239,11 @@ int wordGetNumOcorr(t_words *p)
  *              it was seen on the input (ocorrencias)
  *****************************************************************************/
 
-void wordWriteWord(t_words *p, FILE *fp)
+void wordWriteWord(t_words *p, FILE *fp, int total)
 {
-  fprintf(fp,"%4d : %s\n", p->ocorrencias, p->pal);
+  double freqRel = (double) p->ocorrencias / total;
 
-  return;
+  fprintf(fp, "%4d : %-20s %.4f (%.2f%%)\n", p->ocorrencias, p->pal, freqRel, freqRel * 100);
 }
 
 
@@ -257,7 +257,7 @@ void wordWriteWord(t_words *p, FILE *fp)
  * Description: prints words and respetive frequency
  *****************************************************************************/
 
-void wordsWriteUniqueWordsFrequency(FILE* fpOut) {
+void wordsWriteUniqueWordsFrequency(FILE* fpOut, int total) {
 
   t_lista *aux;       /* pointer to scan the list */
 
@@ -269,7 +269,7 @@ void wordsWriteUniqueWordsFrequency(FILE* fpOut) {
   while(aux != NULL) {
     /* note how we get the item, which is a word, from the list, without
      * knowing how the list is formed */
-    wordWriteWord((t_words*) getItemLista(aux), fpOut);
+    wordWriteWord((t_words*) getItemLista(aux), fpOut, total);
     /* and now we get the next element in the list */
     aux = getProxElementoLista(aux);
   }
@@ -292,8 +292,8 @@ void wordsFreeWord(void*pv)
 {
   t_words *p = (t_words*) pv;
 
-  free(p->pal); // liberta a string primeiro
-  free(p); //dps a estruturas
+  free(p->pal); /*liberta a string primeiro*/
+  free(p); /*dps a estruturas*/
   return;
 }
 
