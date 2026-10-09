@@ -24,7 +24,7 @@ typedef struct _t_words t_words;
 void	wordsCreateData();
 void    wordsAddWord(char*);
 void	wordsWriteUniqueWordsFrequency(FILE*);
-int	wordsNumUniqueWords();
+int	    wordsNumUniqueWords();
 void	wordsFreeData();
 
 #endif

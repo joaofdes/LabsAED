@@ -134,7 +134,7 @@ void wordsAddWord(char *novaPal)
  * Description: return number of unique words stored
  *****************************************************************************/
 
-int wordsNumUniqueWords(Item this)
+int wordsNumUniqueWords(void)
 {
   return (wordsTotalUniqueWords);
 }
@@ -177,7 +177,7 @@ t_words  *wordsCreateWord(char *pal)
 {
   t_words *nova;
 
-  nova = (t_words*) malloc(sizeof(t_words)); //alocar espaço pras palavras
+  nova = (t_words*) malloc(sizeof(t_words)); /* alocar espaço pras palavras */
 
     if(nova == NULL)
       wordsMemoryError("Reserve memory for new word in criaWords" );
@@ -293,8 +293,8 @@ void wordsFreeWord(void*pv)
 {
   t_words *p = (t_words*) pv;
 
-  free(p->pal); // liberta a string primeiro
-  free(p); //dps a estruturas
+  free(p->pal); /* liberta a string primeiro */
+  free(p); /* dps a estruturas */
   return;
 }
 
