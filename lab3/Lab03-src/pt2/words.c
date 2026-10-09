@@ -257,6 +257,7 @@ void wordWriteWord(t_words *p, FILE *fp)
  * Description: prints words and respetive frequency
  *****************************************************************************/
 
+
 void wordsWriteUniqueWordsFrequency(FILE* fpOut) {
 
   t_lista *aux;       /* pointer to scan the list */
