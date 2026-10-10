@@ -96,7 +96,7 @@ int main(int argc, char *argv[])
   }
 
   /* write out words to output file */
-  wordsWriteUniqueWordsFrequency(fpOut);
+  wordsWriteUniqueWordsFrequency(fpOut, numTotalPalavras);
 
   /* get statistics  */
   numPalavrasDiferentes = wordsNumUniqueWords();
