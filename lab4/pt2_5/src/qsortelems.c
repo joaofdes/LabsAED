@@ -53,12 +53,10 @@ int partition(Item arr[], int l, int r, int (*less) (Item, Item)){
   Item tmp;
 
   for(;;){
-    compCnt++;
-    while(less(arr[++i],v)) compCnt++;
+    while(compCnt++, less(arr[++i],v));
     
-    while(less(v,arr[--j])){
+    while(compCnt++, less(v,arr[--j])){
       if(j == l) break;
-      compCnt++;
     }
     if(i>=j) break;
 
