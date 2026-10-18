@@ -103,12 +103,12 @@ int main(int argc, char *argv[])
   printf("Number of words = %d, Number of different words = %d\n",
          numTotalPalavras, numPalavrasDiferentes);
 
-  wordsFreeData(); /*limpa a lista ligada inteira e os nos*/ 
+  wordsFreeData(); /* limpa a lista ligada inteira e os nos */
   
   fclose(fpIn);
   fclose(fpOut);
 
-  free(nomeFicheiroOut); /*memória que tenha sido alocada antes, libertar*/ 
+  free(nomeFicheiroOut); /* memória que tenha sido alocada antes, libertar */
 
   exit(0);
 }
