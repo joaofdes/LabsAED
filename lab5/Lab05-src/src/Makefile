@@ -25,7 +25,9 @@ listest: LinkedList.o listest.c
 	$(CC) $(CFLAGS) -o $@ listest.c LinkedList.o
 
 # Tests
-FILES = $(shell ls ../tests/*.adj 2>/dev/null)
+# testes tao fora do src, nao em ../tests
+TESTDIR = ../../Lab05-tests/tests
+FILES = $(shell ls $(TESTDIR)/*.adj 2>/dev/null)
 VALG = valgrind --leak-check=full
 
 t: lab05
@@ -35,4 +37,4 @@ tv: lab05
 	for F in ${FILES}; do ${VALG} ./lab05 $${F}; done;
 
 clean::
-	rm -f *.o core a.out lab05 listest *~ ../tests/*.ladj ../tests/*.edge
+	rm -f *.o core a.out lab05 listest *~ $(TESTDIR)/*.ladj $(TESTDIR)/*.edge

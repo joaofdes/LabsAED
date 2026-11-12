@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/jonas/Documents/LabsAED/lab2/Lab02/src",
-      "program": "/home/jonas/Documents/LabsAED/lab2/Lab02/src/build/Debug/outDebug",
+      "cwd": "/home/jonas/Documents/LabsAED",
+      "program": "/home/jonas/Documents/LabsAED/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
