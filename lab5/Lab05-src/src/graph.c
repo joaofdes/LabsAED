@@ -635,7 +635,9 @@ void dfsR(Graph *G, int v, int pre[], int *cnt)
   /* marca v como visitado com a ordem em que foi descoberto */
   pre[v] = (*cnt)++;
 
-  /* vai a cada vizinho e se ainda nao foi visto mergulha nele (recursao) */
+  /* vai a cada vizinho e se ainda nao foi visto mergulha nele (recursao).
+     como as listas tao ordenadas, a ordem do pre[] sai igual a da DFS com matriz
+     (vai sempre pelo vizinho de indice mais baixo). com insercao a cabeca dava outra */
   for (aux = G->ladj[v]; aux != NULL; aux = getNextNodeLinkedList(aux)) {
     w = ((AdjNode *) getItemLinkedList(aux))->v;
     if (pre[w] == -1)
@@ -667,7 +669,9 @@ int GRAPHdfs(Graph *G, int pre[])
     pre[v] = -1;
 
   /* cada vez que aparece um v por visitar e uma componente nova:
-     o dfsR a partir dele marca tudo o que lhe esta ligado */
+     o dfsR a partir dele marca tudo o que lhe esta ligado.
+     o que sai disto e uma floresta de suporte (1 arvore por componente), por isso
+     tem de dar E >= V - components; se der igual, cada componente e uma arvore */
   for (v = 0; v < G->V; v++) {
     if (pre[v] == -1) {
       components++;

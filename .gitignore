@@ -1,0 +1,17 @@
+# lixo de compilacao, nao vai pro repo
+*.o
+a.out
+core
+*~
+
+# executaveis dos labs (sem extensao, tem de ser pelo nome)
+lab0[0-9]
+listest
+sortelems
+qsortelems
+palTab
+newWords
+
+# ficheiros que os programas geram nos testes
+*.ladj
+*.edge
